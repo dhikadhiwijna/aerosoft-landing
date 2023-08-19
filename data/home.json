@@ -1,18 +1,14 @@
 [
-    {
-        "name": "Branding",
-        "description": "Create a brand identity so that messages can be conveyed to users or customers so that they can increase brand awareness and also grow"
-    },
-    {
-        "name": "Social Media",
-        "description": "Create a social media presence to reach out to users or customers so that they can increase brand awareness and also grow"
-    },
-    {
-        "name": "Motion Graphics",
-        "description": "Create a motion graphics so that messages can be conveyed to users or customers so that they can increase brand awareness and also grow"
-    },
-    {
-        "name": "Illustration",
-        "description":  "Create an illustration that can be used for various purposes such as posters, banners, and others so that they can increase brand awareness and also grow"
-    }
+  {
+    "name": "Creative Design",
+    "description": "We create beautiful designs for your business. We can create logos, business cards, flyers, brochures, and more. We can also create designs for your website and social media pages."
+  },
+  {
+    "name": "Social Media Management",
+    "description": "We can manage your social media pages for you. We can create posts, respond to comments, and more. We can also create ads for your business."
+  },
+  {
+    "name": "Web Development",
+    "description": "We can create a website for your business. We can also create a blog for your business. We can also create a mobile app for your business."
+  }
 ]

@@ -11,8 +11,8 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-white-be">
-      <div className="wrapper mt-16 flex flex-1 flex-col p-12 md:p-24">
-        <h1 className="gradient-text pb-4 text-center text-5xl font-bold md:text-8xl">
+      <div className="wrapper mt-16 flex min-h-screen flex-1 flex-col p-12 md:p-24">
+        <h1 className="gradient-text pb-4 text-center text-5xl font-bold uppercase md:text-8xl">
           Powerful Digital Branding Agency
         </h1>
 
@@ -29,9 +29,9 @@ export default function Home() {
         </h3>
         <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
           <p className="max-w-lg pt-5 text-sm md:text-lg">
-            At Aerosoft Ageny, we&apos;re passionat about customer experience
-            and tean culture. When you choose to join Aerosoft Agency.
-            you&apos;re joining a team that genuinely loves what tehy do
+            At Aerosoft Agency, we&apos;re passionate about customer experience
+            and team culture. When you choose to join Aerosoft Agency.
+            you&apos;re joining a team that genuinely loves what they do
           </p>
           <Link
             href={`/profile`}
@@ -44,14 +44,13 @@ export default function Home() {
       </div>
 
       <div className="wrapper m-10 flex justify-between gap-8">
-        <p className="w-full max-w-sm text-5xl text-black-be">
-          We offer several service for you
+        <p className="w-full max-w-sm text-2xl font-bold text-black-be">
+          We are a creative agency that focuses on digital branding
         </p>
 
         <p className="w-full max-w-xs text-black-be">
-          At Aerosoft Ageny, we&apos;re passionat about customer experience and
-          tean culture. When you choose to join Aerosoft Agency. you&apos;re
-          joining a team that genuinely loves what tehy do
+          At Aerosoft Agency, we make sure that every project we work on is a
+          success. We are a creative agency that focuses on digital branding.
         </p>
       </div>
 
@@ -77,7 +76,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="wrapper block lg:hidden">
+      <div className="wrapper my-8 block lg:hidden">
         {data.map((item, index) => (
           <div key={index} className="mt-4 flex flex-col gap-2 text-black-be">
             <h3 className="text-2xl">{item.name}</h3>
@@ -101,7 +100,7 @@ export default function Home() {
         </Link>
       </div>
 
-      <div>
+      <div className="my-8">
         {dataProject.map((item, index) => (
           <ListProjectWidget
             key={index}
@@ -134,20 +133,12 @@ export default function Home() {
           </div>
 
           <div className="mt-10 flex flex-col justify-between md:flex-row">
-            <div className="max-w-lg text-center md:text-start">
-              <div className="flex items-center justify-center gap-2 pb-4 md:justify-start">
-                <FontAwesomeIcon
-                  size="xl"
-                  icon={faRocket}
-                  className="text-white-be"
-                />
-                <div className="text-2xl">Aerosoft</div>
-              </div>
-              <div>
-                Provide the best service and without revision restriction, we
-                are ready to help your business grow more with attractive and
-                useful visuals.
-              </div>
+            <div className="flex justify-center md:justify-start md:text-start">
+              <Image
+                src={image.aerosoftLogo}
+                alt={"logo"}
+                className="h-auto w-48 object-contain"
+              />
             </div>
 
             <div className="flex flex-col items-center gap-2 pt-6 md:items-start md:gap-8 md:pt-0">

@@ -1,12 +1,16 @@
 import Navbar from "@/components/Navbar";
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Roboto } from "next/font/google";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 
 const inter = Inter({ subsets: ["latin"] });
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["100", "300", "400", "700", "900"],
+});
 
 export const metadata: Metadata = {
   title: "Aerosoft - Digital Branding Agency",
