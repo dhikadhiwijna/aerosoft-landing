@@ -1,5 +1,6 @@
 import ResponsiveCarousel from "@/components/HomeComponent/CommentCarousel";
 import ListProjectWidget from "@/components/HomeComponent/ListProjectWidget";
+import ScrollToTopButton from "@/components/ScrollToTop";
 import data from "@/data/home.json";
 import { dataProject } from "@/data/project.js";
 import { image } from "@/public";
@@ -7,10 +8,12 @@ import { faArrowRight, faRocket } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center bg-white-be">
+      <ScrollToTopButton />
       <div className="wrapper mt-16 flex min-h-screen flex-1 flex-col p-12 md:p-24">
         <h1 className="gradient-text pb-4 text-center text-5xl font-bold uppercase md:text-8xl">
           Powerful Digital Branding Agency
@@ -56,10 +59,9 @@ export default function Home() {
 
       <div className="wrapper flex justify-center gap-8">
         <Image
-          src={image.gifBg}
+          src={image.bannerMid}
           alt="image_1"
-          width={800}
-          height={500}
+          width={500}
           className="rounded-3xl"
           layout="intrinsic"
           loading="lazy"
@@ -158,9 +160,15 @@ export default function Home() {
             <div className="flex flex-col items-center gap-2 pt-6 md:items-start md:gap-8 md:pt-0">
               <div>Social Media</div>
               <div className="flex flex-col items-center gap-1 md:items-start md:gap-4">
-                <div className="font-extralight">Instagram</div>
-                <div className="font-extralight">Linkedin</div>
-                <div className="font-extralight">Behance</div>
+                <Link
+                  href={"https://www.instagram.com/aerosoft.id/"}
+                  className="font-extralight"
+                  target="_blank"
+                >
+                  Instagram
+                </Link>
+                {/* <div className="font-extralight">Linkedin</div>
+                <div className="font-extralight">Behance</div> */}
               </div>
             </div>
           </div>

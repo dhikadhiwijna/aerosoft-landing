@@ -84,7 +84,7 @@ export default function Navbar() {
         <div
           className={`w-full ${
             showHamburger ? "opacity-100" : "opacity-0"
-          } item-center absolute left-0 top-[3.4em] z-10 mt-8 flex items-start bg-lightgray-be/50 transition-all duration-300 ease-in-out md:hidden`}
+          } item-center absolute left-0 top-[3.4em] z-10 mt-8 flex items-start rounded-b-3xl bg-lightgray-be transition-all duration-300 ease-in-out md:hidden`}
         >
           <ul className="flex flex-1 flex-col text-center font-medium dark:border-gray-700 dark:bg-gray-800 ">
             <li>

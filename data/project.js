@@ -23,23 +23,23 @@ export const dataProject = [
 
 export const dataComment = [
   {
-    comment_name: "Abid Robbani",
-    comment_position: "CEO Gabah Dunak",
-    comment_image: image.abidBG,
+    comment_name: "Nabilah Imas",
+    comment_position: "Online Seller & Product Manager",
+    comment_image: image.nabilahImas,
     comment_description:
       "Jasa desain yang sangat bagus, saya sangat puas dengan hasilnya. Terima kasih banyak!",
   },
   {
     comment_name: "Naufal Afaf",
-    comment_image: image.abidBG,
-    comment_position: "CEO Perfume.co",
+    comment_image: image.naufalAfaf,
+    comment_position: "Shop Owner",
     comment_description:
       "Social media saya jadi lebih menarik dan banyak yang follow.",
   },
   {
-    comment_name: "Adhika Adhiwijna",
-    comment_position: "Software Engineer",
-    comment_image: image.dhikaBg,
+    comment_name: "PC Seller",
+    comment_position: "Fathan Ahsanul Fardi",
+    comment_image: image.fathan,
     comment_description:
       "Saya sangat puas dengan website yang dibuat oleh AeroSoft.",
   },

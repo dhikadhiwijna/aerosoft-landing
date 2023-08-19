@@ -8,7 +8,7 @@ export default function ServicePage() {
         title="Services"
         image={image.aerosoft2}
         description="Aerosoft combines Customer Experience, Data Analytics, and
-                ROI-oriented approaches to help our clients succesd through
+                ROI-oriented approaches to help our clients succes through
                 digital innovation."
       />
       <div className="h-1/2 w-full bg-white-be">
@@ -26,7 +26,7 @@ export default function ServicePage() {
               berdasarkan brief yang di setujui oleh klien.
             </div>
 
-            <ul className="my-5 flex flex-col gap-5 text-center">
+            <ul className="my-5 flex flex-col gap-5 text-center lg:flex-row">
               <li className="rounded-md border border-orange-be p-3 text-orange-be">
                 Logo Design
               </li>
@@ -58,7 +58,7 @@ export default function ServicePage() {
                 target klien.
               </div>
 
-              <ul className="my-5 flex flex-col gap-5 text-center">
+              <ul className="my-5 flex flex-col gap-5 text-center lg:flex-row">
                 <li className="rounded-md border border-white-be p-3 text-white-be">
                   Copywriting
                 </li>
@@ -93,7 +93,7 @@ export default function ServicePage() {
               pekerjaan yang kami kerjakan.
             </div>
 
-            <ul className="my-5 flex flex-col gap-5 text-center lg:flex-row lg:flex-row">
+            <ul className="my-5 flex flex-col gap-5 text-center lg:flex-row">
               <li className="rounded-md border border-orange-be p-3 text-orange-be">
                 UI/UX Design
               </li>
